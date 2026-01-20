@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:week11/view/colunm_page.dart';
 import 'package:week11/view/home.dart';
 import 'package:week11/view/row_page.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       title: "Flutter",
-      home: RowPage(),
+      home: ColunmPage(),
     );
   }
 }
